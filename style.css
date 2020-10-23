@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body, h1 {
+  margin: 0;
+  padding: 0;
+  background-color: #151a22;
+  color: #ffffff;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.header {
+  margin-top: 20vh;
+  text-align: center;
+  font-size: 4rem;
+}
+.flex-wrapper {
+  margin-top: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.round {
+  border-radius: 0.6em;
+}
+.input-area {
+  margin: 0 1vh;
+  height: 5vh;
+  width: 30vw;
+}
+.button-area {
+  margin: 0 1vh;
+  height: 5vh;
+  width: 15vw;
+  display: block;
+  background-color: #307dc1;
+  color: white;
+  font-size: 1.2rem;
+}
+.text-area {
+  text-align: center;
+  margin-right: 3vh;
+  color: #307dc1;
+  font-size: 2rem;
+}
+.result-text {
+  margin-top: 6vh;
+  color: white;
+  font-size: 4rem;
+}
